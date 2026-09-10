@@ -1,0 +1,36 @@
+# Environments and Python caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+wallet*/
+.streamlit/secrets.toml
+config/*
+
+# Healthcare data and local artifacts: never publish by default
+data/**
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite*
+*.pkl
+*.npy
+*.npz
+*.log
+Readme.md.txt
+src/read_patients copy.py
+.vscode/
+.idea/
